@@ -1,0 +1,221 @@
+/*********************************
+            Main structure
+**********************************/
+html {
+    font-size: 68.75%;
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 80.625rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+/*********************************
+             Grids
+**********************************/
+.grid {
+    display: grid;
+    column-gap: 3rem;
+    row-gap: 2rem;
+}
+
+.grid--2-col {
+    grid-template-columns: 1fr 1fr;
+}
+.grid--2-row {
+    grid-template-columns: 1fr 1fr;
+}
+.grid--3-col {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid--4-col {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid--2-row {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.grid---1-auto {
+    grid-template-columns: auto 1fr;
+}
+
+.grid---2-auto {
+    grid-template-columns: auto auto;
+}
+
+.grid---3-auto {
+    grid-template-columns: auto auto 1fr;
+}
+
+.grid---4-auto {
+    grid-template-columns: auto auto auto 1fr;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*********************************
+             Headings
+**********************************/
+h1 {
+    font-size: 5.3125rem;
+    font-weight: 700;
+    line-height: 6.875rem;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5.18rem;
+    background: linear-gradient(180deg, #FF614F -0.1%, #FF37A0 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+h4 {
+    font-size: 2.25rem;
+    font-weight:700;
+    line-height: 3.375rem;
+}
+h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+/*********************************
+             Text-weight
+**********************************/
+.text-weight-normal {
+    font-weight: 400;
+}
+
+.text-weight-medium {
+    font-weight: 500;
+}
+
+.text-weight-bold {
+    font-weight: 700;
+}
+
+.text-weight-bolder {
+    font-weight: 900;
+}
+
+/*********************************
+             Text-color
+**********************************/
+.text-color-white {
+    color: #fff;
+}
+
+.text-color-black {
+    color: #000;
+}
+
+.text-color-primary {
+    color: #8E8E93;
+}
+
+.text-color-secondary {
+    color: #48484A;
+}
+
+/*********************************
+             Text-Transform
+**********************************/
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+/*********************************
+            Background-color
+**********************************/
+.bg-color-white {
+    background-color: #fff;
+}
+
+.bg-color-black {
+    background-color: #000;
+}
+
+.bg-color-primary {
+    background-color: #8E8E93;
+}
+
+.bg-color-secondary {
+    background-color: #48484A;
+}
+
+/*********************************
+             General
+**********************************/
+.image-100 {
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    background: linear-gradient(180deg, #FF614F -0.1%, #FF37A0 99.96%);
+    box-shadow: 0px 30px 80px rgba(255, 55, 160, 0.3);
+    border-radius: 100px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+.button-primary {
+    width:13.75rem;
+    height:3.875rem;
+    line-height: 3.875rem;
+    font-size:1.25rem !important;
+}
+.button-secondary {
+    width:18.25rem;
+    height: 5.25rem;
+    line-height: 5.25rem;
+}
