@@ -606,13 +606,28 @@
 .nft-started__content {
     background-color: #000;
     border-radius: 3rem;
+    position: relative;
 }
 .nft-started__content-image {
     width: 5rem;
     height: 0.3125rem;
     margin: auto;
 }
-
+.nft-started__content-image-1 {
+    width: 13.75rem;
+    height: 14rem;
+    position: absolute;
+    right:-5rem;
+    top: 3rem;
+}
+.nft-started__content-image-2 {
+    width: 15.375rem;
+    height: 15.81rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
 .nft-started__content-heading h3 {
     background: linear-gradient(306.7deg, #FCD7E7 14.07%, #FFFFFF 47.53%, #B2EDE9 85.25%);
     -webkit-background-clip: text;
