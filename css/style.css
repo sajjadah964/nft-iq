@@ -51,6 +51,7 @@
 
 .hero__content {
     padding: 0 2rem;
+    position: relative;
 }
 
 .hero__content-headings h1 {
@@ -58,7 +59,13 @@
     -webkit-text-fill-color: transparent;
     text-align: center;
 }
-
+.hero__3d-image-1 {
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    right: -18rem;
+    top: -3rem;
+}
 .heading-1 {
     background: linear-gradient(306.7deg, #FCD7E7 14.07%, #FFFFFF 47.53%, #B2EDE9 85.25%);
     margin-bottom: 1rem;
