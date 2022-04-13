@@ -66,6 +66,28 @@
     right: -18rem;
     top: -3rem;
 }
+.hero__3d-image-2 {
+    width: 11.56rem;
+    height: 12rem;
+    position: absolute;
+    right: -11rem;
+    bottom: 22rem;
+}
+.hero__3d-image-3 {
+    width: 15.375rem;
+    height: 15.81rem;
+    position: absolute;
+    left: -5rem;
+    bottom: 3rem;
+}
+.hero__3d-image-4 {
+    width: 11.125rem;
+    height: 15.06rem;
+    position: absolute;
+    left: -20rem;
+    top: 34%;
+    transform: translateY(-50%);
+}
 .heading-1 {
     background: linear-gradient(306.7deg, #FCD7E7 14.07%, #FFFFFF 47.53%, #B2EDE9 85.25%);
     margin-bottom: 1rem;
