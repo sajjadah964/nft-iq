@@ -115,27 +115,47 @@
 @media screen and (min-width: 310px) and (max-width: 479px) {
     .header {
         height: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .nav-wrapper {
         display: flex;
         justify-content: space-between;
+        column-gap: 1.5rem;
     }
-
-    .nav {
-        padding-left: 1rem;
-        padding-right: 1rem;
+    .mobile-icon-wrapper {
+        display: block;
     }
-
+    .nav-wrapper__menus {
+        display: none;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        color: red;
+        background-color: #fff;
+        padding: 10px 13px;
+        border-radius: 10px;
+        /* display: block; */
+        left: 0;
+    }
+    .nav-wrapper__menus i {
+        color: #000;
+    }
+    .nav-wrapper__menus li{
+        margin-bottom: 0.7rem;
+    }
+    .nav-wrapper__menus li:last-child{
+        margin-bottom: 0;
+    }
+    .nav-wrapper__menus li a {
+        color: #000;
+    }
     .heading-1 {
         font-size: 3rem;
         line-height: 5rem;
     }
 
     .our-services {
-        display: none;
-    }
-
-    .nav-wrapper__menus {
         display: none;
     }
 
@@ -178,7 +198,10 @@
     .big-idea h2 {
         font-size: 3.5rem;
     }
-
+    .nft-economy h3 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
     .nft-economy {
         padding-top: 6rem;
         height: auto;
@@ -204,6 +227,7 @@
         height: auto;
         width: auto;
         padding: 1.5rem;
+        border-radius: 3rem;
     }
 
     .web-technology {
@@ -319,8 +343,37 @@
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 1.5rem;
+    }
+    .mobile-icon-wrapper {
+        display: block;
+    }
     .nav-wrapper__menus {
         display: none;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        color: red;
+        background-color: #fff;
+        padding: 10px 13px;
+        border-radius: 10px;
+        /* display: block; */
+        left: 0;
+    }
+    .nav-wrapper__menus i {
+        color: #000;
+    }
+    .nav-wrapper__menus li{
+        margin-bottom: 0.7rem;
+    }
+    .nav-wrapper__menus li:last-child{
+        margin-bottom: 0;
+    }
+    .nav-wrapper__menus li a {
+        color: #000;
     }
     .hero {
         padding-top: 6rem;

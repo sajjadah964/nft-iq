@@ -39,7 +39,9 @@
     width: 10.68rem;
     height: 3.125rem;
 }
-
+.mobile-icon-wrapper {
+    display: none;
+}
 /******************************************
             Hero Section
 ******************************************/
