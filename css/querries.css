@@ -3,13 +3,368 @@
         font-size: 11.3px;
     }
 }
+
 @media screen and (max-width: 1290px) {
     html {
         font-size: 11px;
     }
 }
+
 @media screen and (max-width: 1200px) {
     html {
         font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 310px) and (max-width: 479px) {
+    .header {
+        height: auto;
+    }
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .heading-1 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .our-services {
+        display: none;
+    }
+
+    .nav-wrapper__menus {
+        display: none;
+    }
+
+    .hero {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    }
+
+    .hero__content {
+        padding: 0;
+    }
+
+    .heading-2 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .heading-3 {
+        font-size: 2.5rem;
+        line-height: 140%;
+    }
+
+    .hero__content-triangle-image {
+        /* width: auto;
+        height: auto; */
+        padding-bottom: 2rem;
+    }
+
+    .big-idea {
+        padding-top: 5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .big-idea__content {
+        padding: 0;
+    }
+
+    .big-idea h2 {
+        font-size: 3.5rem;
+    }
+
+    .nft-economy {
+        padding-top: 6rem;
+        height: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .nft-economy h2 {
+        padding: 0;
+        font-size: 3.5rem;
+    }
+
+    .nft-economy__content {
+        padding: 0;
+    }
+
+    .smart-contracts {
+        padding: 6rem 1rem 6rem 1rem;
+    }
+
+    .smart-contracts__content {
+        margin-bottom: 5rem;
+        height: auto;
+        width: auto;
+        padding: 1.5rem;
+    }
+
+    .web-technology {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .web-genius {
+        padding: 0;
+    }
+
+    .web-genius__heading {
+        padding: 0;
+    }
+
+    .web-industry .grid--2-col {
+        grid-template-columns: 1fr;
+    }
+
+    .our-solutions {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: auto;
+    }
+
+    .our-solutions__heading {
+        padding: 0;
+    }
+
+    .our-solutions__content-para p {
+        padding: 0;
+    }
+
+    .our-solutions__content-wrapper {
+        flex-direction: column;
+    }
+
+    .our-solutions .grid--3-col {
+        grid-template-columns: 1fr;
+    }
+
+    .our-secret {
+        padding-top: 6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .our-secret__heading {
+        padding: 0;
+    }
+
+    .our-secret__heading h2 {
+        font-size: 3.5rem;
+    }
+
+    .our-secret__content {
+        padding: 0;
+    }
+
+    .smart-design {
+        padding-top: 6rem;
+        height: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .smart-design-heading {
+        padding: 0;
+    }
+
+    .smart-design .grid--4-col {
+        grid-template-columns: 1fr;
+    }
+
+    .smart-design__scroll-image {
+        display: none;
+    }
+
+    .smart-design__purple-image {
+        display: none;
+    }
+
+    .left-arrow-image {
+        display: none;
+    }
+
+    .right-arrow-image {
+        display: none;
+    }
+
+    .nft-started {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .nft-started__content-wrapper {
+        padding: 2rem;
+    }
+
+    .footer {
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    h2 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    .header {
+        height: auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .nav-wrapper__menus {
+        display: none;
+    }
+    .hero {
+        padding-top: 6rem;
+    }
+    .hero__content {
+        padding: 0;
+    }
+    .hero__content-headings h1 {
+        text-align: left;
+    }
+    .heading-3 {
+        text-align: left;
+    }
+    .hero__content-triangle-image {
+        padding-bottom: 2rem;
+    }
+    .big-idea {
+        padding-top: 6rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .big-idea h2 {
+        /* text-align: left; */
+    }
+    .big-idea__content {
+        padding: 0;
+    }
+    .big-idea__content h4 {
+        /* text-align: left; */
+    }
+    .nft-economy {
+        padding:6rem 1.5rem 6rem 1.5rem;
+        height: auto;
+    }
+    .nft-economy h2 {
+        padding: 0;
+    }
+    .nft-economy__content {
+        padding: 0;
+    }
+    .nft-economy__content p {
+        margin-bottom:5rem;
+    }
+    .nft-economy h3 {
+        padding: 0;
+    }
+    .smart-contracts {
+        padding-bottom: 6rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .smart-contracts__content {
+        padding:2rem;
+        width: auto;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+    .web-technology {
+        padding: 6rem 1.5rem 6rem 1.5rem;
+    }
+    .web-genius {
+        padding: 0;
+    }
+    .web-genius__heading {
+        padding: 0;
+    }
+    .web-industry__content .grid--2-col {
+        grid-template-columns: 1fr;
+        row-gap: 3.5rem;
+    }
+
+    .our-solutions {
+        padding-top: 6rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .our-solutions__heading {
+        padding: 0;
+    }
+    .single-heading h4 {
+        line-height: 3rem;
+    }
+    .our-solutions__content-para p  {
+        padding: 0;
+    }
+    .our-solutions .grid--3-col {
+        grid-template-columns: 1fr;
+    }
+
+    .our-secret {
+        padding-top: 6rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .our-secret__heading {
+        padding: 0;
+    }
+    .our-secret__content {
+        padding: 0;
+    }
+
+    .smart-design {
+        padding-top: 6rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        height: auto;
+    }
+    .smart-design-heading {
+        padding: 0;
+    }
+    .smart-design .grid--4-col {
+        grid-template-columns: 1fr 1fr;
+    }
+    .smart-design__scroll-image {
+        width: auto;
+    }
+    .smart-design .grid--3-col {
+        grid-template-columns: auto 1fr auto;
+    }
+
+    .our-services {
+        padding-top: 6rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        display: none;
+    }
+    .our-services__heading {
+        padding: 0;
+    }
+
+    .nft-started__content-wrapper {
+        padding: 3rem;
+    }
+    .nft-started {
+        padding-top:6rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .footer {
+        padding-top: 6rem;
+        padding-bottom: 3rem;
     }
 }
