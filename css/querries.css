@@ -41,6 +41,7 @@
         height: auto;
         padding-left: 2rem;
         padding-right: 2rem;
+        padding-bottom: 3rem;
     }
 
     .our-solutions {
@@ -130,6 +131,10 @@
     }
     .web-genius__image-1 {
         display: none;
+    }
+    .web-technology {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .web-genius__image-2 {
         display: none;
