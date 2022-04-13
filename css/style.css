@@ -426,6 +426,21 @@
 
 .web-genius {
     padding: 0 7rem;
+    position: relative;
+}
+.web-genius__image-1 {
+    width: 16.75rem;
+    height: 16.65rem;
+    position: absolute;
+    right: -17rem;
+    top: -13rem;
+}
+.web-genius__image-2 {
+    width: 15.375rem;
+    height: 15.81rem;
+    position: absolute;
+    left: -16rem;
+    bottom: -48rem;
 }
 
 .web-genius__bar-image {

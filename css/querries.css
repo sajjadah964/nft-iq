@@ -128,7 +128,18 @@
         height: 11.25rem;
         line-height: 11.25rem;
     }
-
+    .web-genius__image-1 {
+        display: none;
+    }
+    .web-genius__image-2 {
+        display: none;
+    }
+    .web-genius__heading {
+        padding: 0 3rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
     .single-circle--6 {
         width: 11.25rem;
         height: 11.25rem;
@@ -257,7 +268,12 @@
         font-size: 3rem;
         line-height: 4rem;
     }
-
+    .web-genius__image-1 {
+        display: none;
+    }
+    .web-genius__image-2 {
+        display: none;
+    }
     .big-idea__content-shape {
         display: none;
     }
@@ -510,7 +526,12 @@
         text-align: left;
         font-size: 2.5rem;
     }
-
+    .web-genius__image-1 {
+        display: none;
+    }
+    .web-genius__image-2 {
+        display: none;
+    }
     .hero__content-triangle-image {
         padding-bottom: 2rem;
     }
