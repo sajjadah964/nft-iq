@@ -16,6 +16,102 @@
     }
 }
 
+@media screen and (max-width: 991px)  {
+    html {
+        font-size: 11px;
+    }
+    .header {
+        height: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .our-solutions {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .our-secret__heading {
+        padding: 0 16rem;
+    }
+    .smart-design {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .our-services {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .our-services__heading {
+        padding: 0 15rem;
+    }
+    .smart-design .grid--3-col {
+        grid-template-columns: 1fr auto 1fr;
+    }
+    .smart-design__scroll-image {
+        width: auto;
+    }
+    .single-circle {
+        padding: 0 0.8rem;
+    }
+    .single-circle p {
+        font-size: 1.3rem;
+    }
+    .single-circle--1 {
+        width: 9rem;
+        height: 9rem;    
+        line-height: 9rem; 
+    }
+    .single-circle--2{
+        width: 11.875rem;
+        height: 11.875rem;
+        line-height: 11.875rem;
+    }
+    .single-circle--3{
+        width: 8rem;
+        height: 8rem;
+        line-height:8rem;
+        
+    }
+    .single-circle--4 {
+        width: 8.5rem;
+        height: 8.5rem;
+        line-height: 8.5rem;
+    }
+    .single-circle--5 {
+        width: 11.25rem;
+        height: 11.25rem;
+        line-height: 11.25rem;
+    }
+    .single-circle--6 {
+        width: 11.25rem;
+        height: 11.25rem;
+        line-height: 11.25rem;
+    }
+    .single-circle--7 {
+        width: 11.75rem;
+        height: 11.75rem;
+        line-height: 11.75rem;
+    }
+    .single-circle--8 {
+        width: 11.75rem;
+        height: 11.75rem;
+        line-height: 11.75rem;
+        background: linear-gradient(180deg, #FF614F -0.1%, #FF37A0 99.96%);
+    
+    }
+    .single-circle--9 {
+        width: 10rem;
+        height:10rem;
+        line-height:10rem;
+    }
+    .single-circle--10 {
+        width: 13.5rem;
+        height: 13.5rem;
+        line-height: 13.5rem;
+
+    }
+    
+}
+
 @media screen and (min-width: 310px) and (max-width: 479px) {
     .header {
         height: auto;
@@ -212,6 +308,7 @@
         padding-bottom: 3rem;
     }
 }
+
 @media screen and (min-width: 480px) and (max-width: 767px) {
     h2 {
         font-size: 3.5rem;
@@ -233,9 +330,11 @@
     }
     .hero__content-headings h1 {
         text-align: left;
+        font-size: 4rem;
     }
     .heading-3 {
         text-align: left;
+        font-size: 2.5rem;
     }
     .hero__content-triangle-image {
         padding-bottom: 2rem;
