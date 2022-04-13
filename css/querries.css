@@ -160,8 +160,8 @@
     }
 
     .hero__content-triangle-image {
-        /* width: auto;
-        height: auto; */
+        width: auto;
+        height: auto;
         padding-bottom: 2rem;
     }
 
