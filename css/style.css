@@ -126,8 +126,15 @@
 
 .big-idea__content {
     padding: 0 5.875rem;
+    position: relative;
 }
-
+.big-idea__content-shape {
+    width: 13.43rem;
+    height: 22.06rem;
+    position: absolute;
+    right: -19.4rem;
+    top: -8rem;
+}
 .big-idea__content p {
     text-align: center;
 }
@@ -168,8 +175,15 @@
 
 .nft-economy__content {
     padding: 0 5.875rem;
+    position: relative;
 }
-
+.nft-economy__content-shape {
+    width: 12.875rem;
+    height: 15.875rem;
+    position: absolute;
+    left: -19rem;
+    top: -4rem;
+}
 .nft-economy__content p {
     margin-bottom: 9rem;
 }
@@ -632,7 +646,7 @@
     background: linear-gradient(306.7deg, #FCD7E7 14.07%, #FFFFFF 47.53%, #B2EDE9 85.25%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-weight: 700;
 }
 .button-started {

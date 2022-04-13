@@ -20,6 +20,18 @@
     html {
         font-size: 11px;
     }
+    .hero__3d-image-1 {
+        display: none;
+    }
+    .hero__3d-image-2 {
+        display: none;
+    }
+    .hero__3d-image-3 {
+        display: none;
+    }
+    .hero__3d-image-4 {
+        display: none;
+    }
     .header {
         height: auto;
         padding-left: 2rem;
@@ -48,6 +60,18 @@
     }
     .smart-design__scroll-image {
         width: auto;
+    }
+    .nft-started__content-image-1 {
+        display: none;
+    }
+    .nft-started__content-image-2 {
+        display: none;
+    }
+    .nft-economy__content-shape {
+        display: none;
+    }
+    .big-idea__content-shape {
+        display: none;
     }
     .single-circle {
         padding: 0 0.8rem;
@@ -168,12 +192,25 @@
     .hero__content {
         padding: 0;
     }
-
+    .hero__3d-image-1 {
+        display: none;
+    }
+    .hero__3d-image-2 {
+        display: none;
+    }
+    .hero__3d-image-3 {
+        display: none;
+    }
+    .hero__3d-image-4 {
+        display: none;
+    }
     .heading-2 {
         font-size: 3rem;
         line-height: 4rem;
     }
-
+    .big-idea__content-shape {
+        display: none;
+    }
     .heading-3 {
         font-size: 2.5rem;
         line-height: 140%;
@@ -208,7 +245,9 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
-
+    .nft-economy__content-shape {
+        display: none;
+    }
     .nft-economy h2 {
         padding: 0;
         font-size: 3.5rem;
@@ -217,7 +256,12 @@
     .nft-economy__content {
         padding: 0;
     }
-
+    .nft-started__content-image-1 {
+        display: none;
+    }
+    .nft-started__content-image-2 {
+        display: none;
+    }
     .smart-contracts {
         padding: 6rem 1rem 6rem 1rem;
     }
@@ -381,6 +425,9 @@
     .hero__content {
         padding: 0;
     }
+    .nft-economy__content-shape {
+        display: none;
+    }
     .hero__content-headings h1 {
         text-align: left;
         font-size: 4rem;
@@ -392,19 +439,34 @@
     .hero__content-triangle-image {
         padding-bottom: 2rem;
     }
+    .hero__3d-image-1 {
+        display: none;
+    }
+    .hero__3d-image-2 {
+        display: none;
+    }
+    .hero__3d-image-3 {
+        display: none;
+    }
+    .hero__3d-image-4 {
+        display: none;
+    }
     .big-idea {
         padding-top: 6rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
-    .big-idea h2 {
+    /* .big-idea h2 {
         /* text-align: left; */
-    }
+    } */
     .big-idea__content {
         padding: 0;
     }
-    .big-idea__content h4 {
+    /* .big-idea__content h4 {
         /* text-align: left; */
+    } */
+    .big-idea__content-shape {
+        display: none;
     }
     .nft-economy {
         padding:6rem 1.5rem 6rem 1.5rem;
@@ -421,6 +483,12 @@
     }
     .nft-economy h3 {
         padding: 0;
+    }
+    .nft-started__content-image-1 {
+        display: none;
+    }
+    .nft-started__content-image-2 {
+        display: none;
     }
     .smart-contracts {
         padding-bottom: 6rem;
