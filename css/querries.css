@@ -48,16 +48,30 @@
         padding-left: 2rem;
         padding-right: 2rem;
     }
-
+    .big-idea  {
+        padding-top: 6rem;
+    }
     .our-secret__heading {
         padding: 0 16rem;
     }
-
+    .nft-economy {
+        padding-top: 6rem;
+        height: auto;
+    }
+    .nft-economy__content p  {
+        margin-bottom: 7rem;
+    }
     .smart-design {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-
+    .smart-contracts {
+        padding-top: 6rem;
+        padding-bottom: 8rem;
+    }
+    .smart-contracts__content {
+        margin-bottom: 7rem;
+    }
     .our-services {
         padding-left: 2rem;
         padding-right: 2rem;
@@ -232,7 +246,6 @@
     }
 
     .nav-wrapper {
-        display: flex;
         justify-content: space-between;
         column-gap: 1.5rem;
     }
@@ -515,9 +528,8 @@
     }
 
     .nav-wrapper {
-        display: flex;
         justify-content: space-between;
-        column-gap: 1.5rem;
+        column-gap: 2.5rem;
     }
 
     .mobile-icon-wrapper {
