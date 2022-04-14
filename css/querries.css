@@ -39,9 +39,7 @@
 
     .header {
         height: auto;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-bottom: 3rem;
+        padding:0 2rem 3rem 2rem;
     }
     .hero {
         padding-top: 3.5rem;
@@ -265,7 +263,6 @@
         background-color: #fff;
         padding: 10px 13px;
         border-radius: 10px;
-        /* display: block; */
         left: 0;
         z-index: 4;
     }
@@ -296,9 +293,7 @@
     }
 
     .hero {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 2rem;
+       padding: 2rem 1rem 0 1rem;
     }
 
     .hero__content {
@@ -349,9 +344,7 @@
     }
 
     .big-idea {
-        padding-top: 5rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding:5rem 1rem 0 1rem;
     }
 
     .big-idea__content {
@@ -368,10 +361,8 @@
     }
 
     .nft-economy {
-        padding-top: 6rem;
         height: auto;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding:6rem 1rem 0 1rem;
     }
 
     .nft-economy__content-shape {
@@ -424,10 +415,8 @@
     }
 
     .our-solutions {
-        padding-left: 1rem;
-        padding-right: 1rem;
         height: auto;
-        padding-top: 5rem;
+        padding: 5rem 1rem 0 1rem;
     }
 
     .our-solutions__heading {
@@ -453,9 +442,7 @@
     }
 
     .our-secret {
-        padding-top: 6rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding: 6rem 1rem 0 1rem;
     }
 
     .our-secret__heading {
@@ -471,10 +458,8 @@
     }
 
     .smart-design {
-        padding-top: 4rem;
         height: auto;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding: 4rem 1rem 0 1rem;
     }
 
     .smart-design-heading {
@@ -623,9 +608,7 @@
     }
 
     .big-idea {
-        padding-top: 6rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding: 6rem 1rem 0 1rem;
     }
 
     .big-idea__content {
@@ -666,9 +649,7 @@
     }
 
     .smart-contracts {
-        padding-bottom: 6rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding: 6rem 1.5rem 0 1.5rem;
     }
 
     .smart-contracts__content {
@@ -696,9 +677,7 @@
     }
 
     .our-solutions {
-        padding-top: 6rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding: 6rem 1.5rem 6rem 1.5rem;
     }
 
     .our-solutions__heading {
@@ -718,9 +697,7 @@
     }
 
     .our-secret {
-        padding-top: 6rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding: 6rem 1.5rem 6rem 1.5rem;
     }
 
     .our-secret__heading {
@@ -732,9 +709,7 @@
     }
 
     .smart-design {
-        padding-top: 6rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding: 6rem 1.5rem 6rem 1.5rem;
         height: auto;
     }
 
@@ -755,9 +730,7 @@
     }
 
     .our-services {
-        padding-top: 6rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding: 6rem 1.5rem 6rem 1.5rem;
         display: none;
     }
 
@@ -770,9 +743,7 @@
     }
 
     .nft-started {
-        padding-top: 6rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding: 6rem 1.5rem 6rem 1.5rem;
     }
 
     .footer {
