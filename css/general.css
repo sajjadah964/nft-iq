@@ -208,6 +208,12 @@ h5 {
     display: block;
     text-align: center;
 }
+.button:hover {
+    /* background: linear-gradient(180deg, #f96858 -0.1%, #f6429f 99.96%);
+    box-shadow: 0px 25px 70px rgba(243, 69, 159, 0.3);   */
+    background: linear-gradient(180deg, #f57162 -0.1%, #f24ea3 99.96%);
+    box-shadow: 0px 25px 70px rgba(238, 81, 162, 0.3);  
+}
 .button-primary {
     width:13.75rem;
     height:3.875rem;

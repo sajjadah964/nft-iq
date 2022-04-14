@@ -12,7 +12,7 @@
 
 .nav-wrapper {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr auto auto;
     align-items: center;
     column-gap: 3rem;
 }
@@ -315,8 +315,8 @@
 }
 
 .our-solutions__button {
-    margin-bottom: 5rem;
-    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
 }
 
 .our-solutions__triangle-image {
@@ -362,11 +362,12 @@
 .smart-design-heading {
     padding: 0 14rem;
     text-align: center;
-    margin-bottom: 4.5rem;
+    margin-bottom: 4rem;
 }
 
 .smart-design-heading h3 {
     font-weight: 700;
+    margin-bottom: 1.2rem;
 }
 
 .smart-design__content-image {
@@ -541,6 +542,10 @@
     color: #fff;
     padding:0 1.6rem;
 }
+.single-circle:hover {
+    background: linear-gradient(180deg, #FF614F -0.1%, #FF37A0 99.96%);
+    cursor: context-menu;
+}
 /* .single-circle p{
     line-height: inherit;
 } */
@@ -610,8 +615,6 @@
     position:absolute;
     top:13rem;
     left: 34rem;
-    background: linear-gradient(180deg, #FF614F -0.1%, #FF37A0 99.96%);
-
 }
 .single-circle--9 {
     width: 12rem;

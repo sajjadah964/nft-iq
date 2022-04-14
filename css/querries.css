@@ -129,22 +129,28 @@
         height: 11.25rem;
         line-height: 11.25rem;
     }
+
     .web-genius__image-1 {
         display: none;
     }
+
     .web-technology {
         padding-left: 2rem;
         padding-right: 2rem;
     }
+
     .web-genius__image-2 {
         display: none;
     }
+
     .web-genius__heading {
         padding: 0 3rem;
     }
+
     h4 {
         font-size: 2rem;
     }
+
     .single-circle--6 {
         width: 11.25rem;
         height: 11.25rem;
@@ -161,7 +167,6 @@
         width: 11.75rem;
         height: 11.75rem;
         line-height: 11.75rem;
-        background: linear-gradient(180deg, #FF614F -0.1%, #FF37A0 99.96%);
         position: relative;
         left: 29rem;
         top: 12rem;
@@ -185,15 +190,47 @@
 @media screen and (min-width: 310px) and (max-width: 479px) {
     h2 {
         line-height: 3.5rem;
+        font-size: 3rem;
     }
+
+    h3 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 130%;
+    }
+
+    h4 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+    .button-primary {
+        width: 11rem;
+        height: 3rem;
+        line-height: 3rem;
+        font-size: 1rem !important;
+    }
+
+    .button-secondary {
+        width: 14.25rem;
+        height: 4.25rem;
+        line-height: 4.25rem;
+    }
+
+    .nft-economy__content p {
+        text-align: center;
+    }
+
     .header {
         height: auto;
         padding-left: 1rem;
         padding-right: 1rem;
     }
+
     .nft-started__content-button {
         margin-bottom: 1rem;
     }
+
     .nav-wrapper {
         display: flex;
         justify-content: space-between;
@@ -236,7 +273,7 @@
 
     .heading-1 {
         font-size: 3rem;
-        line-height: 5rem;
+        line-height: 4rem;
     }
 
     .our-services {
@@ -273,12 +310,15 @@
         font-size: 3rem;
         line-height: 4rem;
     }
+
     .web-genius__image-1 {
         display: none;
     }
+
     .web-genius__image-2 {
         display: none;
     }
+
     .big-idea__content-shape {
         display: none;
     }
@@ -303,9 +343,9 @@
         padding: 0;
     }
 
-    .big-idea h2 {
+    /* .big-idea h2 {
         font-size: 3.5rem;
-    }
+    } */
 
     .nft-economy h3 {
         font-size: 2.5rem;
@@ -325,7 +365,6 @@
 
     .nft-economy h2 {
         padding: 0;
-        font-size: 3.5rem;
     }
 
     .nft-economy__content {
@@ -373,7 +412,7 @@
         padding-left: 1rem;
         padding-right: 1rem;
         height: auto;
-        padding-top: 6rem;
+        padding-top: 5rem;
     }
 
     .our-solutions__heading {
@@ -387,6 +426,11 @@
     .our-solutions__content-wrapper {
         flex-direction: column;
         align-items: center;
+        row-gap: 1rem;
+    }
+
+    .our-solutions__content {
+        margin-bottom: 0
     }
 
     .our-solutions .grid--3-col {
@@ -403,16 +447,16 @@
         padding: 0;
     }
 
-    .our-secret__heading h2 {
+    /* .our-secret__heading h2 {
         font-size: 3.5rem;
-    }
+    } */
 
     .our-secret__content {
         padding: 0;
     }
 
     .smart-design {
-        padding-top: 6rem;
+        padding-top: 4rem;
         height: auto;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -420,6 +464,7 @@
 
     .smart-design-heading {
         padding: 0;
+        margin-bottom: 3rem;
     }
 
     .smart-design .grid--4-col {
@@ -521,22 +566,28 @@
     }
 
     .hero__content-headings h1 {
-        text-align: left;
+        text-align: center;
+        line-height: 5.5rem;
         font-size: 4rem;
     }
+
     .nft-started__content-button {
         margin-bottom: 1rem;
     }
+
     .heading-3 {
-        text-align: left;
+        text-align: center;
         font-size: 2.5rem;
     }
+
     .web-genius__image-1 {
         display: none;
     }
+
     .web-genius__image-2 {
         display: none;
     }
+
     .hero__content-triangle-image {
         padding-bottom: 2rem;
     }
