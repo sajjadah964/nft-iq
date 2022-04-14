@@ -43,7 +43,9 @@
         padding-right: 2rem;
         padding-bottom: 3rem;
     }
-
+    .hero {
+        padding-top: 3.5rem;
+    }
     .our-solutions {
         padding-left: 2rem;
         padding-right: 2rem;
