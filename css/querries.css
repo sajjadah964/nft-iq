@@ -282,14 +282,6 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    .mobile-icon-wrapper span {
-        position: absolute;
-        top: -12px;
-        left: -24px;
-    }
-    .menu-opened {
-        display: none;
-    }
     .nav-wrapper__menu {
         flex-direction: column;
         align-items: center;
@@ -660,14 +652,6 @@
         background: linear-gradient(180deg, #FF614F -0.1%, #FF37A0 99.96%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-    }
-    .mobile-icon-wrapper span {
-        position: absolute;
-        top: -12px;
-        left: -24px;
-    }
-    .menu-opened {
-        display: none;
     }
     .nav-wrapper__menu {
         flex-direction: column;
