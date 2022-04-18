@@ -38,9 +38,7 @@
 .nav-wrapper__menu li a:hover {
     color: #FF37A0;
 }
-.nav-wrapper__social-icons i {
-    font-size: 17px;
-}
+
 .nav-wrapper__social-icons i:hover {
     color: #FF37A0;
 }
