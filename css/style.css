@@ -49,6 +49,7 @@
 }
 .mobile-icon-wrapper {
     display: none;
+    position: relative;
 }
 /******************************************
             Hero Section
