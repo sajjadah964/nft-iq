@@ -16,13 +16,13 @@
     align-items: center;
     column-gap: 3rem;
 }
-.nav-wrapper__menu {
+.nav-wrapper__menus {
     display: grid;
     grid-template-columns: 1fr auto auto;
     align-items: center;
     column-gap: 2.5rem;
 }
-.nav-wrapper__menus {
+.nav-wrapper__menu {
     display: flex;
     column-gap: 2.5rem;
 }
@@ -30,12 +30,12 @@
     display: flex;
     column-gap: 2.4rem;
 }
-.nav-wrapper__menus li a {
+.nav-wrapper__menu li a {
     font-size: 1.25rem;
     color: #fff;
 }
 
-.nav-wrapper__menus li a:hover {
+.nav-wrapper__menu li a:hover {
     color: #FF37A0;
 }
 
