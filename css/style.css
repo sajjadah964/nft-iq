@@ -12,16 +12,24 @@
 
 .nav-wrapper {
     display: grid;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 1fr auto;
     align-items: center;
     column-gap: 3rem;
 }
-
+.nav-wrapper__menu {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    column-gap: 2.5rem;
+}
 .nav-wrapper__menus {
     display: flex;
     column-gap: 2.5rem;
 }
-
+.nav-wrapper__social-icons {
+    display: flex;
+    column-gap: 2.4rem;
+}
 .nav-wrapper__menus li a {
     font-size: 1.25rem;
     color: #fff;
@@ -31,7 +39,7 @@
     color: #FF37A0;
 }
 
-.nav-wrapper__menus li i:hover {
+.nav-wrapper__social-icons i:hover {
     color: #FF37A0;
 }
 
@@ -546,9 +554,6 @@
     background: linear-gradient(180deg, #FF614F -0.1%, #FF37A0 99.96%);
     cursor: context-menu;
 }
-/* .single-circle p{
-    line-height: inherit;
-} */
 .our-services__circles {
     position: relative;
 }
