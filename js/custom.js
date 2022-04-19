@@ -4,8 +4,8 @@
 //         $('#myLinks').slideToggle();
 //     });
 // });
-(function () {
-    'use strict';
+// (function () {
+//     'use strict';
     var isMenuOpen = false;
     $(document).ready(function () {
         $('.mobile-icon-wrapper').on('click', function () {
@@ -28,4 +28,4 @@
             }
         }
     });
-}());
+// }());
