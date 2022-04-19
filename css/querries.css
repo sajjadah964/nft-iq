@@ -223,7 +223,7 @@
     }
     
     .hero {
-       padding: 2rem 1rem 0 1rem;
+       padding: 2rem 1rem 4rem 1rem;
     }
 
     .hero__content {
@@ -429,7 +429,7 @@
 
     .footer {
         padding-top: 6rem;
-        padding-bottom: 3rem;
+        padding-bottom: 5rem;
     }
 }
 
@@ -780,7 +780,7 @@
 
     .footer {
         padding-top: 0rem;
-        padding-bottom: 3rem;
+        padding-bottom: 5rem;
     }
 }
 
