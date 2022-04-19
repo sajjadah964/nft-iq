@@ -75,7 +75,7 @@
         display: block;
     }
 
-    .nav-wrapper__menus{
+    .nav-wrapper .grid--3-auto{
         display: none;
         position: absolute;
         top:80px;
@@ -460,7 +460,7 @@
         display: block;
     }
 
-    .nav-wrapper__menus{
+    .nav-wrapper .grid--3-auto{
         display: none;
         position: absolute;
         top:80px;

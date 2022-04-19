@@ -19,9 +19,7 @@
 .d-grid {
     display: grid !important;
 }
-.nav-wrapper__menus {
-    display: grid;
-    grid-template-columns: 1fr auto auto;
+.nav-wrapper .grid--3-auto {
     align-items: center;
     column-gap: 2.5rem;
 }

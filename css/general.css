@@ -65,19 +65,19 @@ p {
     grid-template-rows: auto 1fr;
 }
 
-.grid---1-auto {
+.grid--1-auto {
     grid-template-columns: auto 1fr;
 }
 
-.grid---2-auto {
+.grid--2-auto {
     grid-template-columns: auto auto;
 }
 
-.grid---3-auto {
-    grid-template-columns: auto auto 1fr;
+.grid--3-auto {
+    grid-template-columns: 1fr auto auto;
 }
 
-.grid---4-auto {
+.grid--4-auto {
     grid-template-columns: auto auto auto 1fr;
 }
 
