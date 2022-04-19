@@ -34,9 +34,7 @@ p {
     line-height: 2.25rem;
     margin: 0;
 }
-.container {
-    padding: 0;
-}
+
 /*********************************
              Grids
 **********************************/
@@ -49,9 +47,11 @@ p {
 .grid--2-col {
     grid-template-columns: 1fr 1fr;
 }
+
 .grid--2-row {
     grid-template-columns: 1fr 1fr;
 }
+
 .grid--3-col {
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -94,12 +94,9 @@ h1 {
     font-size: 5.3125rem;
     font-weight: 700;
     line-height: 6.875rem;
-    margin: 0;
-    padding: 0;
 }
 
 h2 {
-    margin: 0;
     font-size: 4rem;
     font-weight: 700;
     line-height: 5.18rem;
@@ -112,19 +109,20 @@ h3 {
     font-size: 3rem;
     font-weight: 400;
     line-height: 150%;
-    margin: 0;
 }
 
 h4 {
     font-size: 2.25rem;
-    font-weight:700;
+    font-weight: 700;
     line-height: 3.375rem;
 }
+
 h5 {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 2.25rem;
 }
+
 /*********************************
              Text-weight
 **********************************/
@@ -215,23 +213,27 @@ h5 {
     display: block;
     text-align: center;
 }
+
 .button:hover {
     /* background: linear-gradient(180deg, #f96858 -0.1%, #f6429f 99.96%);
     box-shadow: 0px 25px 70px rgba(243, 69, 159, 0.3);   */
     background: linear-gradient(180deg, #f57162 -0.1%, #f24ea3 99.96%);
-    box-shadow: 0px 25px 70px rgba(238, 81, 162, 0.3);  
+    box-shadow: 0px 25px 70px rgba(238, 81, 162, 0.3);
 }
+
 .button-primary {
-    width:13.75rem;
-    height:3.875rem;
+    width: 13.75rem;
+    height: 3.875rem;
     line-height: 3.875rem;
-    font-size:1.25rem !important;
+    font-size: 1.25rem !important;
 }
+
 .button-secondary {
-    width:18.25rem;
+    width: 18.25rem;
     height: 5.25rem;
     line-height: 5.25rem;
 }
+
 img:hover {
     opacity: 0.8;
 }
