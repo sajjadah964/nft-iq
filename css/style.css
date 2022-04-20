@@ -299,16 +299,14 @@
     justify-content: center;
     margin-bottom: 1.7rem;
 }
-
-.our-solutions__content-para p {
-    padding: 0 6rem;
-    text-align: center;
-}
-
-.single-heading--1 {
+.our-solutions__content-wrapper h4:hover {
     background: linear-gradient(180deg, #FF614F -0.1%, #FF37A0 99.96%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.our-solutions__content-para p {
+    padding: 0 6rem;
+    text-align: center;
 }
 
 .single-content {
