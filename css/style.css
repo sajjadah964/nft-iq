@@ -712,6 +712,13 @@
     transform: translate(-50%, -50%);
 }
 
+.nft-started__icons {
+    fill-opacity: 0.4;
+    color: transparent;
+}
+.nft-started__icons:hover {
+    fill-opacity: 1;
+}
 .nft-started__content-heading h3 {
     background: linear-gradient(306.7deg, #FCD7E7 14.07%, #FFFFFF 47.53%, #B2EDE9 85.25%);
     -webkit-background-clip: text;
